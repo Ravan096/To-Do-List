@@ -1,0 +1,86 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  /* border:  1px solid red; */
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700;900&display=swap');
+
+
+
+nav{
+  background-color: blue;
+  color: white;
+  padding: 20px;
+}
+
+
+.container{
+  background-color:  cornsilk;
+  width:  70%;
+  margin: auto;
+  min-height: 100vh;
+  padding: 4vmax 8vmax;
+  box-sizing: border-box;
+}
+
+
+.container>h1{
+  text-align: center;
+  margin: 30px;
+}
+
+.container > form{
+  display: flex;
+  flex-direction: column;
+}
+
+input, 
+textarea,
+button{
+  padding: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.425);
+  border-radius: 5px;
+  margin: 10px 0;
+}
+
+
+button{
+  border: none;
+  cursor: pointer;
+  background-color:  rgb(37, 37, 37);
+  color: white;
+}
+
+
+.Task{
+  display: flex;
+  align-items: center;
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  margin: 20px 0;
+}
+
+.Task > div{
+  width: 100%;
+}
+
+.Task span{
+  color:  rgba(0,0,0, 0.673);
+}
+
+.Task button{
+  border-radius: 100%;
+  width: 30px;
+  height: 30px;
+  font-size: 1.6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Task button:hover{
+  background-color: red;
+}
